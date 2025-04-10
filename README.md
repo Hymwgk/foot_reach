@@ -63,6 +63,8 @@ git clone https://github.com/Hymwgk/foot_reach.git
 
 - 训练 500回合就基本收敛了
 ```bash
+cd <path to IsaacLab>
+
 ./isaaclab.sh -p  scripts/reinforcement_learning/rsl_rl/train.py  --task Isaac-FootReach-Rough-Unitree-Go2-v0 --num_envs 4068 --video --headless --max_iterations 500
 ```
 
@@ -70,6 +72,8 @@ git clone https://github.com/Hymwgk/foot_reach.git
 
 - 测试
 ```bash
+cd <path to IsaacLab>
+
 ./isaaclab.sh -p  scripts/reinforcement_learning/rsl_rl/play.py  --task Isaac-FootReach-Rough-Unitree-Go2-Play-v0
 ```
 
