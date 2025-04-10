@@ -2,7 +2,7 @@
 
 基于IsaacLab，使用PPO 训练四足狗将其右前脚`FR_foot`伸向给定的空中3-dof目标点；
 
-
+- 图片可点击
 [![Foot Reach Task on Unitree Go2](figs/all.png )](https://youtu.be/vLh3emkjAtU?si=YvphiipRX-2Rei7m)
 
 
