@@ -58,8 +58,9 @@ git clone https://github.com/Hymwgk/foot_reach.git
 ```
 
 
-
 ## 使用
+<img src="figs/training_log.png" alt="图片alt" title="图片title">
+
 
 - 训练 500回合就基本收敛了
 ```bash
