@@ -2,8 +2,8 @@
 
 基于IsaacLab，使用PPO 训练四足狗将其右前脚`FR_foot`伸向给定的空中3-dof目标点；
 
-<img src="figs/all.png"  style="zoom:30%;" />
 
+[![Foot Reach Task on Unitree Go2](figs/all.png )](https://youtu.be/vLh3emkjAtU?si=YvphiipRX-2Rei7m)
 
 
 - 给定的目标点每3s随机更新一次，采样区域为`pos_x=(0.4, 0.45)，pos_y=(-0.1, 0.0)，pos_z=(-0.1, 0.1)` 目标点参考系为狗自身的base坐标系；
